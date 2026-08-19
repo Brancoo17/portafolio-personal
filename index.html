@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="img/icon-dev.png">
+<title>Branco | Desarrollador web para negocios</title>
+<meta name="description" content="Desarrollo sistemas web a medida para PyMEs y emprendedores. PHP, MySQL y soluciones que se adaptan a cómo trabaja tu negocio.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-row">
+    <a href="#top" class="logo">Branco<span class="logo-mark">/dev</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="siteNav">
+      <a href="#sobre-mi" data-i18n="nav_about">Sobre mí</a>
+      <a href="#stack" data-i18n="nav_stack">Stack</a>
+      <a href="#servicios" data-i18n="nav_services">Servicios</a>
+      <a href="#proyectos" data-i18n="nav_projects">Proyectos</a>
+      <a href="#contacto" class="nav-cta" data-i18n="nav_contact">Hablemos</a>
+
+      <button class="lang-switch" id="langSwitch" aria-label="Cambiar idioma">
+        <span class="lang-option lang-active" data-lang-label="es">ES</span>
+        <span class="lang-option" data-lang-label="en">EN</span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="hero_eyebrow">// disponible para proyectos</p>
+        <h1 data-i18n="hero_title">Construyo sistemas web que tu negocio realmente puede usar.</h1>
+        <p class="hero-lead" data-i18n="hero_lead">Soy Branco, desarrollador web. Diseño y construyo sitios, paneles y sistemas a medida para PyMEs y emprendedores — con código claro, prácticas ordenadas y foco en que la solución funcione desde el día uno.</p>
+        <div class="hero-actions">
+          <a href="#contacto" class="btn btn-primary" data-i18n="hero_contact">Contame tu proyecto</a>
+          <a href="#proyectos" class="btn btn-ghost" data-i18n="hero_projects">Ver proyectos</a>
+        </div>
+      </div>
+      <div class="hero-panel" aria-hidden="true">
+        <div class="spec-card">
+          <div class="spec-card-header">
+            <span class="spec-id">FICHA-01</span>
+            <span class="spec-status">activo</span>
+          </div>
+          <ul class="spec-list">
+            <li><span>Stack</span><span>PHP · MySQL · JS</span></li>
+            <li><span>Enfoque</span><span>PyMEs y emprendedores</span></li>
+            <li><span>Ubicación</span><span>Argentina · remoto</span></li>
+            <li><span>Modalidad</span><span>Freelance</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre-mi" class="section">
+    <div class="container">
+      <p class="section-eyebrow" data-i18n="about_eyebrow">Sobre mí</p>
+      <h2 class="section-title" data-i18n="about_title">Código con un objetivo claro: resolver un problema concreto.</h2>
+      <div class="about-grid">
+        <p class="about-text" data-i18n="about_text">Me dedico a construir software para pequeños y medianos negocios: sitios institucionales, sistemas de gestión, catálogos, paneles internos y todo lo que un negocio necesita para funcionar mejor online. Trabajo principalmente con PHP bajo un enfoque MVC y MySQL, complementado con JavaScript donde hace falta — sin depender de frameworks pesados cuando la solución no lo requiere.</p>
+        <ul class="about-facts">
+          <li data-i18n="about_fact_1">Desarrollo a medida, no plantillas genéricas</li>
+          <li data-i18n="about_fact_2">Comunicación directa durante todo el proyecto</li>
+          <li data-i18n="about_fact_3">Foco en negocios argentinos y de habla hispana</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="stack" class="section section-alt">
+    <div class="container">
+      <p class="section-eyebrow" data-i18n="stack_eyebrow">Stack técnico</p>
+      <h2 class="section-title" data-i18n="stack_title">Las herramientas con las que construyo.</h2>
+      <div class="stack-grid">
+        <div class="stack-card">
+          <span class="spec-id">STACK-01</span>
+          <h3 data-i18n="stack_1_title">Backend</h3>
+          <p>PHP (MVC) · MySQL</p>
+        </div>
+        <div class="stack-card">
+          <span class="spec-id">STACK-02</span>
+          <h3 data-i18n="stack_2_title">Frontend</h3>
+          <p>HTML · CSS · JavaScript</p>
+        </div>
+        <div class="stack-card">
+          <span class="spec-id">STACK-03</span>
+          <h3 data-i18n="stack_3_title">Herramientas</h3>
+          <p>Git · Gulp · Sass</p>
+        </div>
+        <div class="stack-card">
+          <span class="spec-id">STACK-04</span>
+          <h3 data-i18n="stack_4_title">En aprendizaje</h3>
+          <p>MercadoPago SDK · Multi-tenancy · Despliegue en VPS</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicios" class="section">
+    <div class="container">
+      <p class="section-eyebrow" data-i18n="services_eyebrow">Servicios</p>
+      <h2 class="section-title" data-i18n="services_title">En qué puedo ayudar a tu negocio.</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3 data-i18n="service_1_title">Sitios web para negocios</h3>
+          <p data-i18n="service_1_desc">Sitios institucionales y landing pages pensadas para convertir visitas en clientes: diseño, código, dominio y puesta online.</p>
+        </div>
+        <div class="service-card">
+          <h3 data-i18n="service_2_title">Sistemas de gestión a medida</h3>
+          <p data-i18n="service_2_desc">Paneles internos, catálogos y sistemas que se adaptan a cómo trabaja tu negocio, no al revés.</p>
+        </div>
+        <div class="service-card">
+          <h3 data-i18n="service_3_title">Mantenimiento y mejoras</h3>
+          <p data-i18n="service_3_desc">Soporte continuo sobre sitios y sistemas existentes: correcciones, nuevas funciones y actualizaciones.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="proyectos" class="section section-alt">
+    <div class="container">
+      <p class="section-eyebrow" data-i18n="projects_eyebrow">Proyectos</p>
+      <h2 class="section-title" data-i18n="projects_title">Sistemas resueltos.</h2>
+      <div class="projects-grid">
+
+        <a href="proyecto-techstore.html" class="project-card">
+          <div class="project-card-top">
+            <span class="spec-id">SIS-01</span>
+          </div>
+          <h3 data-i18n="proj_techstore_title">Ecommerce de Productos Tecnologicos</h3>
+          <p data-i18n="proj_techstore_desc">Tienda online para venta de productos tecnologicos con catálogo, carrito y checkout. <br> <b>Desarrollado en PHP y MySQL</b> siguiendo un patrón MVC limpio y ordenado. Incluye: CRUD de productos, carrito de compras persistente y flujo de checkout completo con envío de pedidos por WhatsApp. También incluye un área completa de administración: gestión de productos, gestión de categorías y marcas, gestión de pedidos y gestión de stock completo con historial y movimientos por producto.</p>
+          <div class="tag-row">
+            <span class="tag">PHP</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">SASS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </a>
+
+        <a href="proyecto-ecommerce.html" class="project-card">
+          <div class="project-card-top">
+            <span class="spec-id">SIS-02</span>
+          </div>
+          <h3 data-i18n="proj_ecommerce_title">Ecommerce de Ropa</h3>
+          <p data-i18n="proj_ecommerce_desc">Tienda online para venta minorista de ropa con catálogo, carrito y checkout. <br>
+            Realizado enteramente con PHP y MySQL, siguiendo un patrón MVC limpio y ordenado. Implementé: CRUD de productos, carrito de compras persistente y un flujo de checkout completo con cálculo de totales y envío de pedidos por WhatsApp.</p>
+          <div class="tag-row">
+            <span class="tag">PHP</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">SASS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </a>
+
+        <a href="proyecto-inmobiliaria.html" class="project-card">
+          <div class="project-card-top">
+            <span class="spec-id">SIS-03</span>
+          </div>
+          <h3 data-i18n="proj_inmobiliaria_title">Sistema para Inmobiliarias</h3>
+          <p data-i18n="proj_inmobiliaria_desc">Sistema integral para gestión de propiedades, clientes y operaciones inmobiliarias. Incluye módulo de propiedades, administración de vendedores, subida de blogs y un panel de control para agentes inmobiliarios.</p>
+          <div class="tag-row">
+            <span class="tag">PHP</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">SASS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </a>
+
+        <a href="proyecto-recibos.html" class="project-card">
+          <div class="project-card-top">
+            <span class="spec-id">SIS-04</span>
+          </div>
+          <h3 data-i18n="proj_recibos_title">Sistema de Recibos de Sueldo</h3>
+          <p data-i18n="proj_recibos_desc">Sistema para gestión de recibos de sueldo con autenticación de usuarios, administración de empleados, generación de recibos por período y un panel de control para administradores. Incluye funcionalidades de importación/exportación de recibos.</p>
+          <div class="tag-row">
+            <span class="tag">PHP</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">SASS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="section contact-section">
+    <div class="container">
+      <p class="section-eyebrow" data-i18n="contact_eyebrow">Contacto</p>
+      <h2 class="section-title" data-i18n="contact_title">¿Tenés un proyecto en mente?</h2>
+      <p class="contact-lead" data-i18n="contact_lead">Contame qué necesita tu negocio. Te respondo con una propuesta clara de alcance y tiempos.</p>
+        <div class="contact-actions">
+          <a href="https://wa.me/5493875978810?text=Hola%20Branco%2C%20tengo%20un%20proyecto%20para%20consultarte" class="btn btn-primary" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.472-.148-.67.15-.198.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.71.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+              <path d="M12.004 2.003c-5.523 0-10 4.477-10 10 0 1.766.46 3.492 1.334 5.012L2 22l5.114-1.341a9.958 9.958 0 0 0 4.89 1.246h.004c5.523 0 10-4.477 10-10s-4.477-9.902-10.004-9.902zm.001 18.184h-.003a8.223 8.223 0 0 1-4.192-1.148l-.301-.179-3.118.818.833-3.041-.196-.312a8.214 8.214 0 0 1-1.263-4.4c0-4.539 3.695-8.234 8.243-8.234 2.202 0 4.271.858 5.828 2.417a8.181 8.181 0 0 1 2.412 5.825c-.001 4.539-3.696 8.254-8.243 8.254z"/>
+            </svg>
+            <span data-i18n="whatsapp_btn">Escribime por WhatsApp</span>
+          </a>
+        </div>
+
+        <div class="email-card">
+          <p class="email-card-label" data-i18n="email_label">Mi e-mail</p>
+          <p class="email-card-value" id="emailText">brancoechazu@gmail.com</p>
+          <button class="copy-btn" id="copyEmailBtn" aria-label="Copiar email" data-i18n="copy_btn">Copiar</button>
+        </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-row">
+    <p><span data-i18n="footer_rights">&copy; 2026 Branco. Todos los derechos reservados.</span></p>
+    <div class="footer-links">
+      <a href="https://github.com/Brancoo17" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:brancoechazu@gmail.com" data-i18n="footer_email">Email</a>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="img/icon-dev.png">
+<title>Ecommerce de Ropa | Branco</title>
+<meta name="description" content="Detalle del proyecto: problema, solución y capturas.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-row">
+    <a href="index.html" class="logo">Branco<span class="logo-mark">/dev</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="siteNav">
+      <a href="index.html#sobre-mi" data-i18n="nav_about">Sobre mí</a>
+      <a href="index.html#stack" data-i18n="nav_stack">Stack</a>
+      <a href="index.html#servicios" data-i18n="nav_services">Servicios</a>
+      <a href="index.html#proyectos" data-i18n="nav_projects">Proyectos</a>
+      <a href="index.html#contacto" class="nav-cta" data-i18n="nav_contact">Hablemos</a>
+
+      <button class="lang-switch" id="langSwitch" aria-label="Cambiar idioma">
+        <span class="lang-option lang-active" data-lang-label="es">ES</span>
+        <span class="lang-option" data-lang-label="en">EN</span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="section project-hero">
+    <div class="container">
+      <a href="index.html#proyectos" class="back-link" data-i18n="back_link">&larr; Volver a proyectos</a>
+      <p class="section-eyebrow">ECOMMERCE-01</p>
+      <h1 class="section-title" data-i18n="ecommerce_title">Ecommerce de Ropa</h1>
+      <p class="hero-lead" data-i18n="ecommerce_lead">Tienda online para venta minorista de ropa con catálogo, carrito y checkout. <br> 
+      Realizado enteramente con PHP y MySQL, siguiendo un patrón MVC limpio y ordenado. Implementé: CRUD de productos, carrito de compras persistente y un flujo de checkout completo con cálculo de totales y envío de pedidos por WhatsApp.</p>
+      <div class="tag-row">
+        <span class="tag">PHP</span>
+        <span class="tag">MySQL</span>
+        <span class="tag">JavaScript</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt">
+    <div class="container">
+      <p class="section-eyebrow" data-i18n="gallery_eyebrow">Capturas</p>
+      <h2 class="section-title" data-i18n="gallery_title">Visuales del proyecto</h2>
+      <div class="project-gallery">
+        <figure class="gallery-item">
+          <button class="gallery-trigger" data-modal-img="img/ecommerce-1.jpg" aria-label="Ampliar imagen: vista principal">
+            <img src="img/ecommerce-1.jpg" alt="Captura de pantalla del proyecto: vista principal" loading="lazy">
+          </button>
+          <figcaption data-i18n="ecommerce_cap_1">Vista principal del sistema.</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <button class="gallery-trigger" data-modal-img="img/ecommerce-3.jpg" aria-label="Ampliar imagen: grid de productos">
+            <img src="img/ecommerce-3.jpg" alt="Captura de pantalla del proyecto: grid de productos" loading="lazy">
+          </button>
+          <figcaption data-i18n="ecommerce_cap_2">Grid de productos.</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <button class="gallery-trigger" data-modal-img="img/ecommerce-2.jpg" aria-label="Ampliar imagen: panel interno">
+            <img src="img/ecommerce-2.jpg" alt="Captura de pantalla del proyecto: panel interno" loading="lazy">
+          </button>
+          <figcaption data-i18n="ecommerce_cap_3">Panel de gestión interno. Gestión de productos.</figcaption>
+        </figure>
+        
+        <figure class="gallery-item">
+          <button class="gallery-trigger" data-modal-img="img/ecommerce-4.jpg" aria-label="Ampliar imagen: panel interno">
+            <img src="img/ecommerce-4.jpg" alt="Captura de pantalla del proyecto: panel interno" loading="lazy">
+          </button>
+          <figcaption data-i18n="ecommerce_cap_4">Panel de gestión interno. Gestión de pedidos.</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <button class="gallery-trigger" data-modal-img="img/ecommerce-5.jpg" aria-label="Ampliar imagen: carrito de compras">
+            <img src="img/ecommerce-5.jpg" alt="Captura de pantalla del proyecto: carrito de compras" loading="lazy">
+          </button>
+          <figcaption data-i18n="ecommerce_cap_5">Carrito de Compras.</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <button class="gallery-trigger" data-modal-img="img/ecommerce-6.jpg" aria-label="Ampliar imagen: checkout de compras">
+            <img src="img/ecommerce-6.jpg" alt="Captura de pantalla del proyecto: checkout de compras" loading="lazy">
+          </button>
+          <figcaption data-i18n="ecommerce_cap_6">Checkout de Compras.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="section-eyebrow" data-i18n="detail_eyebrow">Detalles</p>
+      <h2 class="section-title" data-i18n="detail_title">El proyecto</h2>
+      <div class="project-details">
+        <div>
+          <h2 data-i18n="problem_title">El problema</h2>
+          <p data-i18n="ecommerce_problem">El cliente tenía un negocio minorista y queria vender sus productos de manera online, pero no tenia un medio para hacerlo. Queria algo simple, que pueda gestionar el mismo sin necesidad de tener conocimientos tecnicos, y que le permita mostrar sus productos de manera atractiva y facil de navegar para sus clientes.</p>
+        </div>
+        <div>
+          <h2 data-i18n="solution_title">La solución</h2>
+          <p data-i18n="ecommerce_solution">Desarrollé un e-commerce completo con PHP y MySQL, siguiendo una arquitectura MVC limpia y ordenada. El sistema incluye un catálogo de productos con categorías, un panel de administración para gestionar productos, autenticación de usuarios (login de administrador), un carrito de compras persistente y un flujo de checkout completo. El objetivo fue entregar una solución lista para usar, que el cliente pudiera gestionar de forma autónoma desde el primer día.</p>
+        </div>
+        <div>
+          <h2 data-i18n="result_title">Resultado</h2>
+          <p data-i18n="ecommerce_result">El resultado fue un e-commerce funcional y profesional, que el cliente pudo utilizar desde el primer día. Pudo gestionar sus productos de forma autónoma y ofrecer sus productos a sus clientes de manera online. El sistema fue un éxito y el cliente pudo aumentar sus ventas gracias a la implementación del e-commerce.  </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact-section section-alt">
+    <div class="container">
+      <p class="section-eyebrow" data-i18n="cta_eyebrow">¿Tenés un proyecto parecido?</p>
+      <h2 class="section-title" data-i18n="cta_title">Hablemos de tu sistema.</h2>
+      <div class="contact-actions">
+        <a href="index.html#contacto" class="btn btn-primary" data-i18n="cta_contact_btn">Contactar</a>
+        <a href="index.html#proyectos" class="btn btn-ghost" data-i18n="cta_projects_btn">Ver más proyectos</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-row">
+    <p><span data-i18n="footer_rights">&copy; 2026 Branco. Todos los derechos reservados.</span></p>
+    <div class="footer-links">
+      <a href="https://github.com/Brancoo17" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:brancoechazu@gmail.com" data-i18n="footer_email">Email</a>
+    </div>
+  </div>
+</footer>
+
+<div class="img-modal" id="imgModal" aria-hidden="true">
+  <button class="img-modal-close" id="imgModalClose" aria-label="Cerrar imagen">&times;</button>
+  <img src="" alt="" id="imgModalImg">
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
