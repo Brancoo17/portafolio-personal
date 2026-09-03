@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="img/icon-dev.png">
+<title>Ecommerce de Ropa | Branco</title>
+<meta name="description" content="Detalle del proyecto: problema, solución y capturas.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-row">
+    <a href="index.html" class="logo">Branco<span class="logo-mark">/dev</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="siteNav">
+      <a href="index.html#sobre-mi" data-i18n="nav_about">Sobre mí</a>
+      <a href="index.html#stack" data-i18n="nav_stack">Stack</a>
+      <a href="index.html#servicios" data-i18n="nav_services">Servicios</a>
+      <a href="index.html#proyectos" data-i18n="nav_projects">Proyectos</a>
+      <a href="index.html#contacto" class="nav-cta" data-i18n="nav_contact">Hablemos</a>
+
+      <button class="lang-switch" id="langSwitch" aria-label="Cambiar idioma">
+        <span class="lang-option lang-active" data-lang-label="es">ES</span>
+        <span class="lang-option" data-lang-label="en">EN</span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="section project-hero">
+    <div class="container">
+      <a href="index.html#proyectos" class="back-link" data-i18n="back_link">&larr; Volver a proyectos</a>
+      <p class="section-eyebrow">BARBERSHOP-01</p>
+      <h1 class="section-title" data-i18n="barbershop_title">Sistema de Gestión para Barbería</h1>
+      <p class="hero-lead" data-i18n="barbershop_lead">Sistema integral para la gestión de una barbería, incluyendo reserva de turnos, gestión de peluqueros servicios y turnos. <br>
+      Desarrollado con PHP y MySQL, siguiendo un patrón MVC limpio y ordenado. Implementé: gestión de turnos, historial de clientes, control de peluqueros y servicios. Autenticación de usuarios y roles (Cliente, Peluquero y Administrador).</p>
+      <div class="tag-row">
+        <span class="tag">PHP</span>
+        <span class="tag">MySQL</span>
+        <span class="tag">JavaScript</span>
+      </div>
+
+      <div class="hero-actions" style="margin-top: 3rem;">
+        <a href="https://barber-shop.sao.dom.my.id/" class="btn btn-primary" target="_blank" rel="noopener noreferrer" data-i18n="ecommerce_btn_1">
+          Visitar sitio
+        </a>
+        <a href="https://github.com/Brancoo17/proyecto-appsalon" class="btn btn-ghost" target="_blank" rel="noopener noreferrer" data-i18n="ecommerce_btn_2">
+          Ver código fuente
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="section-eyebrow" data-i18n="detail_eyebrow">Detalles</p>
+      <h2 class="section-title" data-i18n="detail_title">El proyecto</h2>
+      <div class="project-details">
+        <div>
+          <h2 data-i18n="problem_title">El problema</h2>
+          <p data-i18n="barbershop_problem">La barbería necesitaba un sistema para gestionar sus turnos, clientes y servicios de manera eficiente, pero no contaba con una solución adecuada.</p>
+        </div>
+        <div>
+          <h2 data-i18n="solution_title">La solución</h2>
+          <p data-i18n="barbershop_solution">Desarrollé un sistema integral para la gestión de una barbería, incluyendo reserva de turnos, gestión de peluqueros, servicios y turnos. El sistema fue desarrollado con PHP y MySQL, siguiendo un patrón MVC limpio y ordenado. Implementé funcionalidades para gestionar turnos, historial de clientes, control de peluqueros y servicios. También se incluyó autenticación de usuarios y roles (Cliente, Peluquero y Administrador).</p>
+        </div>
+        <div>
+          <h2 data-i18n="result_title">Resultado</h2>
+          <p data-i18n="barbershop_result">El resultado fue un sistema funcional y profesional, que la barbería pudo utilizar desde el primer día. Pudo gestionar sus turnos de forma autónoma y ofrecer sus servicios a sus clientes de manera eficiente. El sistema fue un éxito y la barbería pudo mejorar su operación gracias a la implementación del sistema.  </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact-section section-alt">
+    <div class="container">
+      <p class="section-eyebrow" data-i18n="cta_eyebrow">¿Tenés un proyecto parecido?</p>
+      <h2 class="section-title" data-i18n="cta_title">Hablemos de tu sistema.</h2>
+      <div class="contact-actions">
+        <a href="index.html#contacto" class="btn btn-primary" data-i18n="cta_contact_btn">Contactar</a>
+        <a href="index.html#proyectos" class="btn btn-ghost" data-i18n="cta_projects_btn">Ver más proyectos</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-row">
+    <p><span data-i18n="footer_rights">&copy; 2026 Branco. Todos los derechos reservados.</span></p>
+    <div class="footer-links">
+      <a href="https://github.com/Brancoo17" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:brancoechazu@gmail.com" data-i18n="footer_email">Email</a>
+    </div>
+  </div>
+</footer>
+
+<div class="img-modal" id="imgModal" aria-hidden="true">
+  <button class="img-modal-close" id="imgModalClose" aria-label="Cerrar imagen">&times;</button>
+  <img src="" alt="" id="imgModalImg">
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
