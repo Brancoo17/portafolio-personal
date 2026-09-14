@@ -18,9 +18,9 @@
     </button>
     <nav class="nav" id="siteNav">
       <a href="#sobre-mi" data-i18n="nav_about">Sobre mí</a>
-      <a href="#stack" data-i18n="nav_stack">Stack</a>
       <a href="#servicios" data-i18n="nav_services">Servicios</a>
       <a href="#proyectos" data-i18n="nav_projects">Proyectos</a>
+      <a href="#stack" data-i18n="nav_stack">Stack</a>
       <a href="#contacto" class="nav-cta" data-i18n="nav_contact">Hablemos</a>
 
       <button class="lang-switch" id="langSwitch" aria-label="Cambiar idioma">
@@ -76,34 +76,6 @@
     </div>
   </section>
 
-  <section id="stack" class="section section-alt">
-    <div class="container">
-      <p class="section-eyebrow" data-i18n="stack_eyebrow">Stack técnico</p>
-      <h2 class="section-title" data-i18n="stack_title">Las herramientas con las que construyo.</h2>
-      <div class="stack-grid">
-        <div class="stack-card">
-          <span class="spec-id">STACK-01</span>
-          <h3 data-i18n="stack_1_title">Backend</h3>
-          <p>PHP (MVC) · MySQL</p>
-        </div>
-        <div class="stack-card">
-          <span class="spec-id">STACK-02</span>
-          <h3 data-i18n="stack_2_title">Frontend</h3>
-          <p>HTML · CSS · JavaScript</p>
-        </div>
-        <div class="stack-card">
-          <span class="spec-id">STACK-03</span>
-          <h3 data-i18n="stack_3_title">Herramientas</h3>
-          <p>Git · Gulp · Sass</p>
-        </div>
-        <div class="stack-card">
-          <span class="spec-id">STACK-04</span>
-          <h3 data-i18n="stack_4_title">En aprendizaje</h3>
-          <p>MercadoPago SDK · Multi-tenancy · Despliegue en VPS</p>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <section id="servicios" class="section">
     <div class="container">
@@ -132,12 +104,12 @@
       <h2 class="section-title" data-i18n="projects_title">Sistemas resueltos.</h2>
       <div class="projects-grid">
 
-        <a href="proyecto-techstore.html" class="project-card">
+        <a href="proyecto-gimnasio.html" class="project-card">
           <div class="project-card-top">
             <span class="spec-id">SIS-01</span>
           </div>
-          <h3 data-i18n="proj_techstore_title">Ecommerce de Productos Tecnologicos</h3>
-          <p data-i18n="proj_techstore_desc">Tienda online para venta de productos tecnologicos con catálogo, carrito y checkout. <br> <b>Desarrollado en PHP y MySQL</b> siguiendo un patrón MVC limpio y ordenado. Incluye: CRUD de productos, carrito de compras persistente y flujo de checkout completo con envío de pedidos por WhatsApp. También incluye un área completa de administración: gestión de productos, gestión de categorías y marcas, gestión de pedidos y gestión de stock completo con historial y movimientos por producto.</p>
+          <h3 data-i18n="proj_gym_title">Sistema de Gestión para Gimnasio</h3>
+          <p data-i18n="proj_gym_desc">Gestionar un gimnasio a mano significa planillas para las membresías, cobros que hay que perseguir y horarios que se arman a ojo. <br> Armé un sistema con pagos automáticos vía Mercado Pago, paneles separados para cliente, entrenador y administrador, y gestión completa de planes, turnos y ejercicios.</p>
           <div class="tag-row">
             <span class="tag">PHP</span>
             <span class="tag">MySQL</span>
@@ -151,8 +123,37 @@
             <span class="spec-id">SIS-02</span>
           </div>
           <h3 data-i18n="proj_barbershop_title">Sistema de Gestión para Barbería</h3>
-          <p data-i18n="proj_barbershop_desc">Sistema integral para la gestión de una barbería, incluyendo reserva de turnos, gestión de peluqueros servicios y turnos. <br>
-            Desarrollado con PHP y MySQL, siguiendo un patrón MVC limpio y ordenado. Implementé: gestión de turnos, historial de clientes, control de peluqueros y servicios. Autenticación de usuarios y roles (Cliente, Peluquero y Administrador).</p>
+          <p data-i18n="proj_barbershop_desc">Antes, la barbería manejaba turnos por WhatsApp y agenda de papel: horarios pisados, clientes perdidos y ningún control sobre qué hacía cada peluquero. <br>
+            Armé un sistema con reservas online, roles separados para cliente, peluquero y administrador, y un panel para ver todo de un vistazo.</p>
+          <div class="tag-row">
+            <span class="tag">PHP</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">SASS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </a>
+
+
+        <a href="proyecto-inmobiliaria.html" class="project-card">
+          <div class="project-card-top">
+            <span class="spec-id">SIS-03</span>
+          </div>
+          <h3 data-i18n="proj_inmobiliaria_title">Sistema para Inmobiliarias</h3>
+          <p data-i18n="proj_inmobiliaria_desc">Sistema integral para gestión de propiedades, clientes y operaciones inmobiliarias. Incluye módulo de propiedades, administración de vendedores, subida de blogs y un panel de control para agentes inmobiliarios.</p>
+          <div class="tag-row">
+            <span class="tag">PHP</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">SASS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </a>
+
+        <a href="proyecto-techstore.html" class="project-card">
+          <div class="project-card-top">
+            <span class="spec-id">SIS-04</span>
+          </div>
+          <h3 data-i18n="proj_techstore_title">Ecommerce de Productos Tecnologicos</h3>
+          <p data-i18n="proj_techstore_desc">Tienda online para venta de productos tecnologicos con catálogo, carrito y checkout. <br> <b>Desarrollado en PHP y MySQL</b> siguiendo un patrón MVC limpio y ordenado. Incluye: CRUD de productos, carrito de compras persistente y flujo de checkout completo con envío de pedidos por WhatsApp. También incluye un área completa de administración: gestión de productos, gestión de categorías y marcas, gestión de pedidos y gestión de stock completo con historial y movimientos por producto.</p>
           <div class="tag-row">
             <span class="tag">PHP</span>
             <span class="tag">MySQL</span>
@@ -163,7 +164,7 @@
 
         <a href="proyecto-ecommerce.html" class="project-card">
           <div class="project-card-top">
-            <span class="spec-id">SIS-03</span>
+            <span class="spec-id">SIS-05</span>
           </div>
           <h3 data-i18n="proj_ecommerce_title">Ecommerce de Ropa</h3>
           <p data-i18n="proj_ecommerce_desc">Tienda online para venta minorista de ropa con catálogo, carrito y checkout. <br>
@@ -176,23 +177,9 @@
           </div>
         </a>
 
-        <a href="proyecto-inmobiliaria.html" class="project-card">
-          <div class="project-card-top">
-            <span class="spec-id">SIS-04</span>
-          </div>
-          <h3 data-i18n="proj_inmobiliaria_title">Sistema para Inmobiliarias</h3>
-          <p data-i18n="proj_inmobiliaria_desc">Sistema integral para gestión de propiedades, clientes y operaciones inmobiliarias. Incluye módulo de propiedades, administración de vendedores, subida de blogs y un panel de control para agentes inmobiliarios.</p>
-          <div class="tag-row">
-            <span class="tag">PHP</span>
-            <span class="tag">MySQL</span>
-            <span class="tag">SASS</span>
-            <span class="tag">JavaScript</span>
-          </div>
-        </a>
-
         <a href="proyecto-recibos.html" class="project-card">
           <div class="project-card-top">
-            <span class="spec-id">SIS-05</span>
+            <span class="spec-id">SIS-06</span>
           </div>
           <h3 data-i18n="proj_recibos_title">Sistema de Recibos de Sueldo</h3>
           <p data-i18n="proj_recibos_desc">Sistema para gestión de recibos de sueldo con autenticación de usuarios, administración de empleados, generación de recibos por período y un panel de control para administradores. Incluye funcionalidades de importación/exportación de recibos.</p>
@@ -204,6 +191,35 @@
           </div>
         </a>
 
+      </div>
+    </div>
+  </section>
+
+  <section id="stack" class="section section-alt">
+    <div class="container">
+      <p class="section-eyebrow" data-i18n="stack_eyebrow">Stack técnico</p>
+      <h2 class="section-title" data-i18n="stack_title">Las herramientas con las que construyo.</h2>
+      <div class="stack-grid">
+        <div class="stack-card">
+          <span class="spec-id">STACK-01</span>
+          <h3 data-i18n="stack_1_title">Backend</h3>
+          <p>PHP (MVC) · MySQL</p>
+        </div>
+        <div class="stack-card">
+          <span class="spec-id">STACK-02</span>
+          <h3 data-i18n="stack_2_title">Frontend</h3>
+          <p>HTML · CSS · JavaScript</p>
+        </div>
+        <div class="stack-card">
+          <span class="spec-id">STACK-03</span>
+          <h3 data-i18n="stack_3_title">Herramientas</h3>
+          <p>Git · Gulp · Sass</p>
+        </div>
+        <div class="stack-card">
+          <span class="spec-id">STACK-04</span>
+          <h3 data-i18n="stack_4_title">En aprendizaje</h3>
+          <p>MercadoPago SDK · Multi-tenancy · Despliegue en VPS</p>
+        </div>
       </div>
     </div>
   </section>
