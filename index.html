@@ -38,7 +38,7 @@
       <div class="hero-copy">
         <p class="eyebrow" data-i18n="hero_eyebrow">// disponible para proyectos</p>
         <h1 data-i18n="hero_title">Construyo sistemas web que tu negocio realmente puede usar.</h1>
-        <p class="hero-lead" data-i18n="hero_lead">Soy Branco, desarrollador web. Diseño y construyo sitios, paneles y sistemas a medida para PyMEs y emprendedores — con código claro, prácticas ordenadas y foco en que la solución funcione desde el día uno.</p>
+        <p class="hero-lead" data-i18n="hero_lead">Diseño y desarrollo paneles de gestión, tiendas online y sistemas a medida para PyMEs y emprendedores — pensados para que los uses desde el día uno, no para impresionar a otro programador.</p>
         <div class="hero-actions">
           <a href="#contacto" class="btn btn-primary" data-i18n="hero_contact">Contame tu proyecto</a>
           <a href="#proyectos" class="btn btn-ghost" data-i18n="hero_projects">Ver proyectos</a>
@@ -88,7 +88,7 @@
         </div>
         <div class="service-card">
           <h3 data-i18n="service_2_title">Sistemas de gestión a medida</h3>
-          <p data-i18n="service_2_desc">Paneles internos, catálogos y sistemas que se adaptan a cómo trabaja tu negocio, no al revés.</p>
+          <p data-i18n="service_2_desc">Paneles internos, catálogos, control de stock y cobros online — sistemas que se adaptan a cómo trabaja tu negocio, no al revés.</p>
         </div>
         <div class="service-card">
           <h3 data-i18n="service_3_title">Mantenimiento y mejoras</h3>
@@ -104,17 +104,19 @@
       <h2 class="section-title" data-i18n="projects_title">Sistemas resueltos.</h2>
       <div class="projects-grid">
 
+        <!-- NOTA: Activar/publicar recién cuando el proyecto esté terminado y tenga capturas reales -->
         <a href="proyecto-gimnasio.html" class="project-card">
           <div class="project-card-top">
             <span class="spec-id">SIS-01</span>
           </div>
-          <h3 data-i18n="proj_gym_title">Sistema de Gestión para Gimnasio</h3>
-          <p data-i18n="proj_gym_desc">Gestionar un gimnasio a mano significa planillas para las membresías, cobros que hay que perseguir y horarios que se arman a ojo. <br> Armé un sistema con pagos automáticos vía Mercado Pago, paneles separados para cliente, entrenador y administrador, y gestión completa de planes, turnos y ejercicios.</p>
+          <h3 data-i18n="proj_gimnasio_title">Sistema de Gestión para Gimnasios</h3>
+          <p data-i18n="proj_gimnasio_desc">Antes: membresías en planillas y cobros manuales. Ahora: pagos automáticos con Mercado Pago, reserva de turnos, planes de entrenamiento y un panel único para cliente, entrenador y administrador.</p>
           <div class="tag-row">
             <span class="tag">PHP</span>
             <span class="tag">MySQL</span>
             <span class="tag">SASS</span>
             <span class="tag">JavaScript</span>
+            <span class="tag">Mercado Pago SDK</span>
           </div>
         </a>
 
@@ -133,10 +135,23 @@
           </div>
         </a>
 
+        <a href="proyecto-delivery.html" class="project-card">
+          <div class="project-card-top">
+            <span class="spec-id">SIS-03</span>
+          </div>
+          <h3 data-i18n="proj_delivery_title">Sistema de Gestión para Comercios de Comida con Delivery</h3>
+          <p data-i18n="proj_delivery_desc">Antes: pedidos por teléfono, sin control de stock ni de repartidores. Ahora: pedidos online con seguimiento en tiempo real, cálculo automático del costo de envío según distancia, control de stock por receta y panel para cocina, caja y repartidores.</p>
+          <div class="tag-row">
+            <span class="tag">PHP</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">SASS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </a>
 
         <a href="proyecto-inmobiliaria.html" class="project-card">
           <div class="project-card-top">
-            <span class="spec-id">SIS-03</span>
+            <span class="spec-id">SIS-04</span>
           </div>
           <h3 data-i18n="proj_inmobiliaria_title">Sistema para Inmobiliarias</h3>
           <p data-i18n="proj_inmobiliaria_desc">Sistema integral para gestión de propiedades, clientes y operaciones inmobiliarias. Incluye módulo de propiedades, administración de vendedores, subida de blogs y un panel de control para agentes inmobiliarios.</p>
@@ -150,7 +165,7 @@
 
         <a href="proyecto-techstore.html" class="project-card">
           <div class="project-card-top">
-            <span class="spec-id">SIS-04</span>
+            <span class="spec-id">SIS-05</span>
           </div>
           <h3 data-i18n="proj_techstore_title">Ecommerce de Productos Tecnologicos</h3>
           <p data-i18n="proj_techstore_desc">Tienda online para venta de productos tecnologicos con catálogo, carrito y checkout. <br> <b>Desarrollado en PHP y MySQL</b> siguiendo un patrón MVC limpio y ordenado. Incluye: CRUD de productos, carrito de compras persistente y flujo de checkout completo con envío de pedidos por WhatsApp. También incluye un área completa de administración: gestión de productos, gestión de categorías y marcas, gestión de pedidos y gestión de stock completo con historial y movimientos por producto.</p>
@@ -164,25 +179,11 @@
 
         <a href="proyecto-ecommerce.html" class="project-card">
           <div class="project-card-top">
-            <span class="spec-id">SIS-05</span>
+            <span class="spec-id">SIS-06</span>
           </div>
           <h3 data-i18n="proj_ecommerce_title">Ecommerce de Ropa</h3>
           <p data-i18n="proj_ecommerce_desc">Tienda online para venta minorista de ropa con catálogo, carrito y checkout. <br>
             Realizado enteramente con PHP y MySQL, siguiendo un patrón MVC limpio y ordenado. Implementé: CRUD de productos, carrito de compras persistente y un flujo de checkout completo con cálculo de totales y envío de pedidos por WhatsApp.</p>
-          <div class="tag-row">
-            <span class="tag">PHP</span>
-            <span class="tag">MySQL</span>
-            <span class="tag">SASS</span>
-            <span class="tag">JavaScript</span>
-          </div>
-        </a>
-
-        <a href="proyecto-recibos.html" class="project-card">
-          <div class="project-card-top">
-            <span class="spec-id">SIS-06</span>
-          </div>
-          <h3 data-i18n="proj_recibos_title">Sistema de Recibos de Sueldo</h3>
-          <p data-i18n="proj_recibos_desc">Sistema para gestión de recibos de sueldo con autenticación de usuarios, administración de empleados, generación de recibos por período y un panel de control para administradores. Incluye funcionalidades de importación/exportación de recibos.</p>
           <div class="tag-row">
             <span class="tag">PHP</span>
             <span class="tag">MySQL</span>

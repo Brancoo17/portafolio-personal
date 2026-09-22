@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<!-- NOTA: Activar/publicar recién cuando el proyecto esté terminado y tenga capturas reales -->
 <html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="img/icon-dev.png">
-<title>Sistema de Gestión para Gimnasios | Branco</title>
+<title>Sistema de Gestión para Comercios de Comida con Delivery | Branco</title>
 <meta name="description" content="Detalle del proyecto: problema, solución y capturas.">
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -37,24 +36,14 @@
   <section class="section project-hero">
     <div class="container">
       <a href="index.html#proyectos" class="back-link" data-i18n="back_link">&larr; Volver a proyectos</a>
-      <p class="section-eyebrow">GIMNASIO-01</p>
-      <h1 class="section-title" data-i18n="gym_title">Sistema de Gestión para Gimnasios</h1>
-      <p class="hero-lead" data-i18n="gym_lead">Gestionar un gimnasio a mano significa planillas para las membresías, cobros que hay que perseguir y horarios que se arman a ojo. Armé un sistema con pagos automáticos vía Mercado Pago, paneles separados para cliente, entrenador y administrador, y gestión completa de planes, turnos y ejercicios.</p>
+      <p class="section-eyebrow">DELIVERY-01</p>
+      <h1 class="section-title" data-i18n="delivery_title">Sistema de Gestión para Comercios de Comida con Delivery</h1>
+      <p class="hero-lead" data-i18n="delivery_lead">Un local de comida con delivery propio suele coordinar pedidos por teléfono o WhatsApp, sin saber en tiempo real cuánto stock queda ni dónde está cada repartidor. Armé un sistema que centraliza pedidos, calcula el costo de envío automáticamente según la distancia, controla el stock por receta y da seguimiento completo desde que se hace el pedido hasta que se entrega.</p>
       <div class="tag-row">
         <span class="tag">PHP</span>
         <span class="tag">MySQL</span>
         <span class="tag">SASS</span>
         <span class="tag">JavaScript</span>
-        <span class="tag">Mercado Pago SDK</span>
-      </div>
-
-      <div class="hero-actions" style="margin-top: 3rem;">
-        <a href="https://gym-fitness.freedev.app/" class="btn btn-primary" target="_blank" rel="noopener noreferrer" data-i18n="ecommerce_btn_1">
-          Visitar sitio
-        </a>
-        <a href="https://github.com/Brancoo17/gym-project" class="btn btn-ghost" target="_blank" rel="noopener noreferrer" data-i18n="ecommerce_btn_2">
-          Ver código fuente
-        </a>
       </div>
     </div>
   </section>
@@ -77,15 +66,15 @@
       <div class="project-details">
         <div>
           <h2 data-i18n="problem_title">El problema</h2>
-          <p data-i18n="gym_problem">Los gimnasios suelen controlar membresías y pagos en planillas de Excel o cuadernos, sin aviso automático de quiénes están al día y quiénes no. Armar los horarios de clases y asignar entrenadores se hace a mano, y no hay un lugar único donde el cliente vea sus planes, sus turnos y su estado de pago.</p>
+          <p data-i18n="delivery_problem">Los locales de comida con reparto propio (pizzerías, rotiserías, hamburgueserías) suelen tomar pedidos por teléfono o WhatsApp sin un sistema central, calculan el costo de envío a ojo, y no tienen forma de saber cuánta materia prima consumieron ni cuánto stock les queda hasta que se les termina en medio de un pedido.</p>
         </div>
         <div>
           <h2 data-i18n="solution_title">La solución</h2>
-          <p data-i18n="gym_solution">Desarrollé un sistema con tres roles: el cliente se registra, elige su plan (Crossfit, Musculación o Funcional), paga su membresía online con Mercado Pago y reserva sus turnos; el entrenador ve los horarios y ejercicios asignados a sus clases; el administrador controla membresías, pagos, planes y horarios desde un panel central, sin depender de planillas externas.</p>
+          <p data-i18n="delivery_solution">Desarrollé un sistema con roles para dueño, empleado de cocina/caja, repartidor y cliente. El cliente arma su pedido online (con cuenta o como invitado), marca su ubicación en un mapa y el sistema calcula el costo de envío automáticamente según la distancia real al local. Cada venta descuenta el stock de insumos según la receta del producto, con alertas cuando algo está por agotarse. Cocina y caja ven los pedidos entrantes en tiempo real y los repartidores reciben las asignaciones y actualizan el estado de entrega desde su propia vista. Incluye pagos con Mercado Pago o efectivo, comprobantes internos y reportes de ventas y consumo de insumos.</p>
         </div>
         <div>
           <h2 data-i18n="result_title">Resultado</h2>
-          <p data-i18n="gym_result">El sistema centraliza toda la gestión del gimnasio en una sola plataforma, automatizando pagos, control de acceso y comunicación con los clientes. El administrador ahorra tiempo en tareas manuales, mientras que los clientes tienen claridad sobre sus suscripciones y horarios, mejorando la experiencia general y profesionalizando el negocio.</p>
+          <p data-i18n="delivery_result">El resultado es un sistema integral que centraliza toda la operación del negocio de comida, desde la toma de pedidos hasta la entrega final. Automatiza tareas manuales, mejora la comunicación entre los roles, optimiza el control de stock y proporciona información valiosa para la toma de decisiones. </p>
         </div>
       </div>
     </div>
